@@ -19,3 +19,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('/get_mobile_data','App\Http\Controllers\Manage\ManageController@getMobileData');
+
+Route::get('/get_data','App\Http\Controllers\Manage\ManageController@getMobileData');
