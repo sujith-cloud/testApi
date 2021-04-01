@@ -28,6 +28,6 @@ class SAuth
 
 
             return $next($request);
-        }+
+        }
 
 }
